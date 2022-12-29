@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>ShopUs</title>
+ 	<link rel="icon" type="text/css" href="../images/icon.jpg"/>	
+	<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+    	 
+    	*
+    	{
+    		box-sizing: border-box;
+    	}
+    	#c1
+    	{
+    		height: 790px;
+    		background-image: url(../images/p.jpeg);
+       		background-repeat: no-repeat;
+    		background-size: cover;
+/*    		background: bisque;*/
+    	}
+    	#c2
+    	{
+    		height: 100px;
+    		background: transparent	;
+    	}
+    	#c3
+    	{
+    		height: 100px;
+    		background: transparent;
+    	}
+    	#c4
+    	{
+    		height: 100px;
+    		background: transparent;
+    	}
+    	#c5
+    	{
+    		font-size: 40px;
+    		color: orange;
+    		margin: 25px;
+    	}
+    	#c6
+    	{
+    		color: white;
+    		font-size: 30px;
+    		border: 1px solid orange;
+    		float: right;
+    		margin: 20px;
+    		padding: 5px 20px;
+    		text-decoration: none;
+    	}
+    	#c7
+    	{
+    		height: 100px;
+    		background: transparent;
+    		text-align: center;
+    	}
+    	#c8
+    	{
+    		color: white;
+    		font-size: 60px;
+    	}
+    	#c9
+    	{
+    		color: orange;
+    		font-size: 70px;
+    	}
+    	#c10
+    	{
+    		height: 100px;
+    		background: transparent;
+    	}
+    	#c11
+    	{
+    		width: 100%;
+    		text-align: center;
+    		margin: 20px ;
+
+    	}
+    	#c12
+    	{
+    		height: 50px;
+    		width: 700px;
+    		border: 1px solid orange;
+    		border-radius: 10px;
+    	}
+    	#c13
+    	{
+    		font-size: 30px;
+    		height: 42px;
+    		margin: 2px;
+
+
+    	}
+    	#c14
+    	{
+    		margin: 0px -7px;
+    		border-radius: 5px;
+    		border: 1px solid orange;
+
+    	}
+    	#c15
+    	{
+    		height: 150px;
+    		background: transparent;
+    	}
+    	#c16
+    	{
+    		height: 150px;
+    		background: transparent;
+    	}
+    	#c17
+    	{
+    		height: 150px;
+    		background: transparent;
+    	}
+    	#c18
+    	{
+    		height: 150px;
+    		background: transparent;
+/*    		border: 1px solid white;*/
+    		text-align: left;
+    	}
+    	#c19
+    	{
+    		margin: 50px;
+    	}
+    	#c20
+    	{
+    		font-size: 100px;
+    		color: white;
+    		text-align: left;
+    	}
+    	#c21
+    	{
+    		font-size: 30px;
+    		color: orange;
+    	}
+    	#c22
+    	{
+    		height: 150px;
+    		background: transparent;
+/*    		border: 1px solid white;*/
+    		text-align: left;
+    	}#c23
+    	{
+    		height: 150px;
+    		background: transparent;
+/*    		border: 1px solid white;*/
+    		text-align: left;
+    	}#c24
+    	{
+    		height: 150px;
+    		background: transparent;
+/*    		border: 1px solid white;*/
+    		text-align: left;
+    	}
+    	#c25
+    	{
+    		height: 150px;
+    		background: transparent;
+/*    		border: 1px solid white;*/
+    		text-align: center;
+    	}
+    	 #c26
+    	{
+    		font-size: 100px;
+    		color: white;
+    		text-align: left;
+    		margin: 0px 90px;
+    	}
+    	#c27
+    	{
+    		font-size: 30px;
+    		color: orange;
+    		margin: 0px 50px;
+    	}
+    	#c28
+    	{
+    		height: 60px;
+    		background: transparent;
+    	}
+    	#c29
+    	{
+    		height: 90px;
+    		background: transparent;
+    	}
+    	#c31
+    	{
+    		font-size: 20px;
+    		color: whitesmoke;
+    		text-align: center;
+    		border-radius: 10px;
+    		border: 1px solid white;
+    	}
+/*    	furniture*/
+    	#c32
+    	{
+    		height: 100px;
+    		background: white;
+    	}
+    	#c33
+    	{
+    		height: 100px;
+    		background: transparent;
+    	}
+    	#c34
+    	{
+    		height: 100px;
+    		background: white;
+    	}
+    	#c35
+    	{
+    		font-size: 30px;
+    		padding: 5px 20px;
+    		border: 1px solid orangered;
+    		margin: -0px 60px;
+    	}
+    	#c36
+    	{
+    		text-decoration: none;
+    		color: black;
+    	}
+    	#c37
+    	{
+    		font-size: 40px;
+    		color: red;
+    		margin: 25px 0px 0px -30px;
+    	}
+    	#c38
+    	{
+    		height: 674px;
+    		background: beige;
+    	}
+    	#c39
+    	{
+    		height: 337px;
+    		background: red;
+    	}
+    	#c40
+    	{
+    		height: 337px;
+    		background: yellow;
+    	}
+    	#c41
+    	{
+    		height: 337px;
+    		background: blue;
+    	}
+    	#c42
+    	{
+    		height: 337px;
+    		background: violet;
+    	}
+    	#c43
+    	{
+    		height: 337px;
+    		background: orange;
+    	}
+    	#c44
+    	{
+    		height: 337px;
+    		background: grey;
+    	}
+    	#c45
+    	{
+    		height: 337px;
+    		background: violet;
+    	}
+    	#c46
+    	{
+    		height: 337px;
+    		background: pink;
+    	}
+    	#c47
+    	{
+    		height: 337px;
+    		background: brown;
+    	}
+    	#c48
+    	{
+    		height: 337px;
+    		background: grey;
+    	}
+    	#c49
+    	{
+    		height: 220px;
+    		background-image: url(../images/f1.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c50
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c51
+    	{
+    		height: 220px;
+    		background-image: url(../images/f2.png);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c52
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c53
+    	{
+    		height: 220px;
+    		background-image: url(../images/f3.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c54
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c56
+    	{
+    		height: 220px;
+    		background-image: url(../images/f4.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c57
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c58
+    	{
+    		height: 220px;
+    		background-image: url(../images/f5.png);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c59
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c60
+    	{
+    		height: 220px;
+    		background-image: url(../images/f6.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c61
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c62
+    	{
+    		height: 220px;
+    		background-image: url(../images/f7.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c63
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c64
+    	{
+    		height: 220px;
+    		background-image: url(../images/f8.jpeg);
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		border: 3px solid bisque;
+    	}
+    	#c65
+    	{
+    		height: 117px;
+    		background: white;
+    		border: 3px solid darkmagenta;
+    	}
+    	#c66
+    	{
+    		font-size: 21px;
+    		margin: 0px 10px;
+    	}
+    	#c67
+    	{
+    		font-size: 20px;
+    		margin: 0px 20px;
+    		color: orange;	
+
+    	}
+    	#c70
+    	{
+    		font-size: 30px;
+    		margin: 0px 150px;
+    		color: red;
+    	}
+    	#c71
+    	{
+    		font-size: 20px;
+    		margin: 0px 20px;
+    		color: orange;
+
+    	}
+    	#c68
+    	{
+    		text-decoration: none;
+    	}
+    	#c69
+    	{
+    		text-decoration: none;
+    	}
+    	@media screen and (max-width:800px){
+    		#c1, #c2, #c3,#c4, #c5, #c6,#c7, #c8, #c9,#c10, #c11, #c12,#c13, #c14, #c15, #c16, #c17, #c18,#c19, #c20, #c21,#c22, #c23, #c24,#c25, #c26, #c27,#c28, #c29, #c30,#c31, #c32, #c33,#c34, #c35, #c36,#c37, #c38, #c39,#c40, #c41, #c42,#c43, #c44, #c45, #c46, #c47, #c48,#c49, #c50, #c51,#c52, #c53, #c54,#c55, #c56, #c57,#c58, #c59, #c60, #c61,#c62, #c63, #c64,#c65, #c66, #c67,#c68, #c69, #c70,#c71{
+    			width: 100%;
+    		}
+    	}
+    	
+
+    </style>
+</head>
+<body>
+	<div class="container-fluid" id="c1">
+		<div class="row">
+			<div class="col-lg-12" id="c2">
+				<div id="row">
+					<div class="col-lg-6" id="c3"><a href="#"><i class="fa-solid fa-bars" id="c5"></i></a></div>
+					<div class="col-lg-6" id="c4">
+						    <a href="#" id="c6">Grocery</a><a href="#" id="c6">ShopUs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8" id="c7">
+				<h1><b id="c8">Shop</b><b id="c9">Us</b></h1>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8" id="c10">
+				<div class="search-container" id="c11">
+					<form>
+						<input type="text" name="search" placeholder="Search Products.." id="c12">
+						<button type="sumbit" id="c14" ><i class="fa fa-search" id="c13"></i></button>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+	   </div>
+	   <div class="row">
+		   	<div class="col-lg-4" id="c15"></div>
+		   	<div class="col-lg-4" id="c16">
+		   		<div class="row">
+		   			<div class="col-lg-12" id="c28">
+		   				<div class="row">
+		   					<div class="col-lg-4" id="c30"><a href="footwear.html" id="n1"><p id="c31">Footwear</p></a></div>
+		   					<div class="col-lg-4" id="c30"><a href="clothes.html" id="n1"><p id="c31">Clothes</p></a></div>
+		   					<div class="col-lg-4" id="c30"><a href="furniture.html" id="n1"><p id="c31">Furniture</p></div>
+		   				</div>
+		   			</div>
+		   			<div class="col-lg-12" id="c29">
+		   				    <div class="col-lg-4" id="c30"><a href="kitchen.html" id="n1"><p id="c31">Kitchen</p></a></div>
+		   					<div class="col-lg-4" id="c30"><a href="toys.html" id="n1"><p id="c31">Toys</p></a></div>
+		   					<div class="col-lg-4" id="c30"><a href="food.html" id="n1"><p id="c31">Food</p></a></div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	<div class="col-lg-4" id="c17"></div>
+	   </div>
+	   <div class="row" id="c19">
+	   	 	<div class="col-lg-3" id="c18">
+	   	 		<a href="#"><i class="fa-solid fa-house" id="c20"></i><p id="c21">Home</p></a>
+	   	 	</div>
+	   	 	<div class="col-lg-2" id="c22">
+	   	 		<a href="#"><i class="fa-solid fa-image" id="c20"></i><p id="c21">Categories</p></a>
+	   	 	</div>
+	   	 	<div class="col-lg-3" id="c23">
+	   	 		<a href="#"><i class="fa-solid fa-bell" id="c26"></i><p id="c27">Notifications</p></a>
+	   	 	</div>
+	   	 	<div class="col-lg-2" id="c24">
+	   	 		<a href="#"><i class="fa-solid fa-user" id="c20"></i><p id="c21">Account</p></a>
+	   	 	</div>
+	   	 	<div class="col-lg-2" id="c25">
+	   	 		<a href="#"><i class="fa-solid fa-cart-shopping" id="c20"></i><p id="c21">Cart</p></a>
+	   	 	</div>
+
+
+	   </div>
+   </div>
+   <div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="c32"><a href="#"><i class="fa-solid fa-bars" id="c5"></i></a>
+	   			<a href="#" id="c36"><b id="c35">Footwear</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="c33"></div>
+	   		<div class="col-lg-4" id="c34">
+	   			<a href="#" id="c36"><span id="c35">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="c37"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="c38">
+      		<div class="row" id="c39">
+      			<div class="col-lg-3" id="c40">
+      				<div class="row">
+      					<div class="col-lg-12" id="c49"></div>
+      					<div class="col-lg-12" id="c50">
+      						<span id="c66"><b>Winter high Heals</b></span><span id="c66"><b>Prize</b>:1999rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="c41">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c51"></div>
+      					<div class="col-lg-12" id="c52">
+      						<span id="c66"><b>Women Wear</b></span><span id="c66"><b>Prize</b>:2499rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="c42">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c53"></div>
+      					<div class="col-lg-12" id="c54">
+      						<span id="c66"><b>Metalchain flats</b></span><span id="c66"><b>Prize</b>:1599rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="c43">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c56"></div>
+      					<div class="col-lg-12" id="c57">
+      						<span id="c66"><b>Men's Sneakers</b></span><span id="c66"><b>Prize</b>:5999rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="c44">
+      			<div class="col-lg-3" id="c45">
+      				<div class="row">
+      					<div class="col-lg-12" id="c58"></div>
+      					<div class="col-lg-12" id="c59">
+      						<span id="c66"><b>Classic Wear</b></span><span id="c66"><b>Prize</b>:3999rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="c46">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c60"></div>
+      					<div class="col-lg-12" id="c61">
+      						<span id="c66"><b>Formal Wear</b></span><span id="c66"><b>Prize</b>:2599rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="c47">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c62"></div>
+      					<div class="col-lg-12" id="c63">
+      						<span id="c66"><b>Casual Sandles</b></span><span id="c66"><b>Prize</b>:999rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="c48">
+		      		<div class="row">
+      					<div class="col-lg-12" id="c64"></div>
+      					<div class="col-lg-12" id="c65">
+      						<span id="c66"><b>Rabbit Wool</b></span><span id="c66"><b>Prize</b>:599rs</span><br><br>
+          					    <a href="#" id="c68"><span><b id="c67">
+      						         <i class="fa-solid fa-star" id="c72"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="c69"><span ><b id="c71">Review</b> <i class="fa-solid fa-plus" id="c70"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+      	</div></div>
+      </div>
+  </div>
+  <!-- clothes -->
+	<div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="k2"><a href="#"><i class="fa-solid fa-bars" id="k1"></i></a>
+	   			<a href="#" id="k3"><b id="k4">Clothes</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="k5"></div>
+	   		<div class="col-lg-4" id="k6">
+	   			<a href="#" id="k3"><span id="k4">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="k7"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="k8">
+      		<div class="row" id="k9">
+      			<div class="col-lg-3" id="k10">
+      				<div class="row">
+      					<div class="col-lg-12" id="k11"></div>
+      					<div class="col-lg-12" id="k12">
+      						<span id="k13"><b> winter coats</b></span><span id="k13"><b>Prize</b>:3999rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="k20">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k21"></div>
+      					<div class="col-lg-12" id="k22">
+      						<span id="k13"><b>salwar suits</b></span><span id="k13"><b>Prize</b>:2899rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="k23">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k24"></div>
+      					<div class="col-lg-12" id="k25">
+      						<span id="k13"><b>blazer jacket</b></span><span id="k13"><b>Prize</b>:4999rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="k26">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k27"></div>
+      					<div class="col-lg-12" id="k28">
+      						<span id="k13"><b>Colorful Lehanga</b></span><span id="k13"><b>Prize</b>:6999rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="k29">
+      			<div class="col-lg-3" id="k30">
+      				<div class="row">
+      					<div class="col-lg-12" id="k31"></div>
+      					<div class="col-lg-12" id="k32">
+      						<span id="k13"><b>Fashion Kid's</b></span><span id="k13"><b>Prize</b>:2999rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>...
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="k33">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k34"></div>
+      					<div class="col-lg-12" id="k35">
+      						<span id="k13"><b>Classic Kid's</b></span><span id="k13"><b>Prize</b>:8599rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="k36">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k37"></div>
+      					<div class="col-lg-12" id="k38">
+      						<span id="k13"><b>Coat Hoodie</b></span><span id="k13"><b>Prize</b>:2999rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="k39">
+		      		<div class="row">
+      					<div class="col-lg-12" id="k40"></div>
+      					<div class="col-lg-12" id="k41">
+      						<span id="k13"><b>Furleather jacket</b></span><span id="k13"><b>Prize</b>:3599rs</span><br><br>
+          					    <a href="#" id="k14"><span><b id="k15">
+      						         <i class="fa-solid fa-star" id="k16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="k17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="k19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+   
+      </div>
+  </div>
+  <!-- furniture -->
+	<div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="s2"><a href="#"><i class="fa-solid fa-bars" id="s1"></i></a>
+	   			<a href="#" id="s3"><b id="s4">Furniture</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="s5"></div>
+	   		<div class="col-lg-4" id="s6">
+	   			<a href="#" id="s3"><span id="s4">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="s7"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="s8">
+      		<div class="row" id="s9">
+      			<div class="col-lg-3" id="s10">
+      				<div class="row">
+      					<div class="col-lg-12" id="s11"></div>
+      					<div class="col-lg-12" id="s12">
+      						<span id="s13"><b> Hanging Chair</b></span><span id="s13"><b>Prize</b>:8999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s20">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s21"></div>
+      					<div class="col-lg-12" id="s22">
+      						<span id="s13"><b>Modern Teapoy</b></span><span id="s13"><b>Prize</b>:9899rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s23">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s24"></div>
+      					<div class="col-lg-12" id="s25">
+      						<span id="s13"><b>Rosewood Bed</b></span><span id="s13"><b>Prize</b>:49999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s26">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s27"></div>
+      					<div class="col-lg-12" id="s28">
+      						<span id="s13"><b>Dressing Table</b></span><span id="s13"><b>Prize</b>:10999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="s29">
+      			<div class="col-lg-3" id="s30">
+      				<div class="row">
+      					<div class="col-lg-12" id="s31"></div>
+      					<div class="col-lg-12" id="s32">
+      						<span id="s13"><b>Stunning Sofa</b></span><span id="s13"><b>Prize</b>:15999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s33">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s34"></div>
+      					<div class="col-lg-12" id="s35">
+      						<span id="s13"><b>Classic Cot</b></span><span id="s13"><b>Prize</b>:8999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s36">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s37"></div>
+      					<div class="col-lg-12" id="s38">
+      						<span id="s13"><b>Cupboard</b></span><span id="s13"><b>Prize</b>:29999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s39">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s40"></div>
+      					<div class="col-lg-12" id="s41">
+      						<span id="s13"><b>Designer Chair</b></span><span id="s13"><b>Prize</b>:3999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+   
+      </div>
+  </div>
+  <!-- Kitchen -->
+	<div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="s2"><a href="#"><i class="fa-solid fa-bars" id="s1"></i></a>
+	   			<a href="#" id="s3"><b id="s4">Kitchen</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="s5"></div>
+	   		<div class="col-lg-4" id="s6">
+	   			<a href="#" id="s3"><span id="s4">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="s7"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="s8">
+      		<div class="row" id="s9">
+      			<div class="col-lg-3" id="s10">
+      				<div class="row">
+      					<div class="col-lg-12" id="s42"></div>
+      					<div class="col-lg-12" id="s12">
+      						<span id="s13"><b> Greay Toaster</b></span><span id="s13"><b>Prize</b>:2499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s20">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s43"></div>
+      					<div class="col-lg-12" id="s22">
+      						<span id="s13"><b>Traditional Kettle</b></span><span id="s13"><b>Prize</b>:3499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s23">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s44"></div>
+      					<div class="col-lg-12" id="s25">
+      						<span id="s13"><b>Trendy Oven</b></span><span id="s13"><b>Prize</b>:9999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s26">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s45"></div>
+      					<div class="col-lg-12" id="s28">
+      						<span id="s13"><b>Mini Kitchen</b></span><span id="s13"><b>Prize</b>:10999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="s29">
+      			<div class="col-lg-3" id="s30">
+      				<div class="row">
+      					<div class="col-lg-12" id="s46"></div>
+      					<div class="col-lg-12" id="s32">
+      						<span id="s13"><b>CoockWeare Sets</b></span><span id="s13"><b>Prize</b>:6999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s33">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s47"></div>
+      					<div class="col-lg-12" id="s35">
+      						<span id="s13"><b>Coocking Utensils</b></span><span id="s13"><b>Prize</b>:8999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s36">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s48"></div>
+      					<div class="col-lg-12" id="s38">
+      						<span id="s13"><b>Doubleeye Stove</b></span><span id="s13"><b>Prize</b>:12999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s39">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s49"></div>
+      					<div class="col-lg-12" id="s41">
+      						<span id="s13"><b>Various Knifes</b></span><span id="s13"><b>Prize</b>:999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+   
+      </div>
+  </div>
+  <!-- toys -->
+	<div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="s2"><a href="#"><i class="fa-solid fa-bars" id="s1"></i></a>
+	   			<a href="#" id="s3"><b id="s4">Toys</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="s5"></div>
+	   		<div class="col-lg-4" id="s6">
+	   			<a href="#" id="s3"><span id="s4">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="s7"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="s8">
+      		<div class="row" id="s9">
+      			<div class="col-lg-3" id="s10">
+      				<div class="row">
+      					<div class="col-lg-12" id="s50"></div>
+      					<div class="col-lg-12" id="s12">
+      						<span id="s13"><b> Cute Toybag</b></span><span id="s13"><b>Prize</b>:1499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s20">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s51"></div>
+      					<div class="col-lg-12" id="s22">
+      						<span id="s13"><b>Toy Horse</b></span><span id="s13"><b>Prize</b>:5499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s23">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s52"></div>
+      					<div class="col-lg-12" id="s25">
+      						<span id="s13"><b>Bag of Toys</b></span><span id="s13"><b>Prize</b>:1999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s26">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s53"></div>
+      					<div class="col-lg-12" id="s28">
+      						<span id="s13"><b>Mini Army</b></span><span id="s13"><b>Prize</b>:5999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="s29">
+      			<div class="col-lg-3" id="s30">
+      				<div class="row">
+      					<div class="col-lg-12" id="s54"></div>
+      					<div class="col-lg-12" id="s32">
+      						<span id="s13"><b>Cute Barbie</b></span><span id="s13"><b>Prize</b>:1499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s33">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s55"></div>
+      					<div class="col-lg-12" id="s35">
+      						<span id="s13"><b>Mini Hand Bears</b></span><span id="s13"><b>Prize</b>:2999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s36">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s56"></div>
+      					<div class="col-lg-12" id="s38">
+      						<span id="s13"><b>Bunch of Cars</b></span><span id="s13"><b>Prize</b>:10999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s39">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s57"></div>
+      					<div class="col-lg-12" id="s41">
+      						<span id="s13"><b>Couple Teddys</b></span><span id="s13"><b>Prize</b>:3999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+   
+      </div>
+  </div>
+  <!-- food -->
+	<div class="container-fluid">
+   	   <div class="row">
+	   		<div class="col-lg-4" id="s2"><a href="#"><i class="fa-solid fa-bars" id="s1"></i></a>
+	   			<a href="#" id="s3"><b id="s4">Food</b></a>
+	   		</div>
+	   		<div class="col-lg-4" id="s5"></div>
+	   		<div class="col-lg-4" id="s6">
+	   			<a href="#" id="s3"><span id="s4">Wishlist</span></a>
+	   			<a href="#"><i class="fa-solid fa-heart" id="s7"></i></a>
+	   		</div>
+
+      </div>
+      <div class="row">
+      	<div class="col-lg-12" id="s8">
+      		<div class="row" id="s9">
+      			<div class="col-lg-3" id="s10">
+      				<div class="row">
+      					<div class="col-lg-12" id="s58"></div>
+      					<div class="col-lg-12" id="s12">
+      						<span id="s13"><b>Fruits       </b></span><span id="s13"><b>Prize</b>:999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s20">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s59"></div>
+      					<div class="col-lg-12" id="s22">
+      						<span id="s13"><b>Cool Drinks</b></span><span id="s13"><b>Prize</b>:599rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s23">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s60"></div>
+      					<div class="col-lg-12" id="s25">
+      						<span id="s13"><b>Pulses & Cereals</b></span><span id="s13"><b>Prize</b>:799rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s26">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s61"></div>
+      					<div class="col-lg-12" id="s28">
+      						<span id="s13"><b>Spices</b></span><span id="s13"><b>Prize</b>:999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      		<div class="row" id="s29">
+      			<div class="col-lg-3" id="s30">
+      				<div class="row">
+      					<div class="col-lg-12" id="s62"></div>
+      					<div class="col-lg-12" id="s32">
+      						<span id="s13"><b>Groceries</b></span><span id="s13"><b>Prize</b>:1499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+      			</div>
+		      	<div class="col-lg-3" id="s33">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s63"></div>
+      					<div class="col-lg-12" id="s35">
+      						<span id="s13"><b>Vegetables</b></span><span id="s13"><b>Prize</b>:499rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="k18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s36">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s64"></div>
+      					<div class="col-lg-12" id="s38">
+      						<span id="s13"><b>Dairy Products</b></span><span id="s13"><b>Prize</b>:1999rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+		      	<div class="col-lg-3" id="s39">
+		      		<div class="row">
+      					<div class="col-lg-12" id="s65"></div>
+      					<div class="col-lg-12" id="s41">
+      						<span id="s13"><b>Chocolates</b></span><span id="s13"><b>Prize</b>:399rs</span><br><br>
+          					    <a href="#" id="s14"><span><b id="s15">
+      						         <i class="fa-solid fa-star" id="s16"></i><i class="fa-solid fa-star"></i>
+      						         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>Rating</b></span></a>
+      						   <a href="#" id="s17"><span ><b id="s18">Review</b> <i class="fa-solid fa-plus" id="s19"></i></span></a>
+      					</div>
+      				</div>
+		      	</div>
+      		</div>
+      	</div>
+   
+      </div>
+  </div>
+  <div class="container-fluid" id="m1">
+  	<div class="row">
+  		<div class="col-lg-12" id="m2">
+  			<h1><b id="c8">Shop</b><b id="c9">Us</b></h1>
+  		</div>
+  		<div class="col-lg-12" id="m3">
+  			<h2 id="m6">Connect with us at</h2>
+  			<span id="m7"><i class="fa-brands fa-facebook" id="m8"></i><i class="fa-brands fa-twitter" id="m9"></i>
+  				<i class="fa-brands fa-instagram" id="m10"></i><i class="fa-brands fa-linkedin" id="m11"></i></span>
+  				<span><a href="#" id="m12">Shopus.co.in</a></span>
+  		</div>
+  		<div class="col-lg-12" id="m4">
+  			<div class="row">
+  				<div class="col-lg-4" id="m13">
+  					<p id="m16">Contact us <a href="#">shopus.co.in@gmail.com</a></p>
+  					<p id="m17"><a href="#" id="m18"> About Us</p>
+  					<p id="m17"><a href="#" id="m18"> Get Help</p>
+  					<p id="m17"><a href="#" id="m18"> Support</p>
+  					<p id="m17"><a href="#" id="m18"> Terms & Conditions</p>
+  					<p id="m17"><a href="#" id="m18"> Services</p>
+  				</div>
+  				<div class="col-lg-4" id="m14">
+  					<img class="img img-circle " src="../images/icon.jfif" height="300" width="300" id="m20">
+  				</div>
+  				<div class="col-lg-4" id="m15">
+  					<img class="img img-rounded " src="../images/sp.jfif" height="370" width="400" >
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-lg-12" id="m5">
+  			<h1 id="m22">&copy; All Copyrights Reserved </h1>
+  			<p id="m23">Designed by <b>Sai Navya, Anand Bathla, Satyam Raj</b></p>
+  		</div>
+  	</div>
+  </div>
+  
+
+
+</body>
+</html>
